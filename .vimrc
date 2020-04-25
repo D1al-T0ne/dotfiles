@@ -18,5 +18,19 @@ endif
 " Line numbering
 set number
 
+" Show the current mode
+set showmode
+
+" Show teh cursor position
+set ruler
+
+" Always show status line
+set laststatus=2
+
+" Highlight dynamically as pattern is typed.
+set insearch
+
 " Colorscheme
 colorscheme pablo
+
+
