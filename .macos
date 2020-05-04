@@ -1,0 +1,18 @@
+
+
+
+==================== General ======================
+
+===================== Dock  =======================
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
+
+==================== Photos  ======================
+
+# Prevent Photos from opening automatically when devices are plugged in.
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
