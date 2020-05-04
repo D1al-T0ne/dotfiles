@@ -15,6 +15,8 @@ if &t_Co >2 || has("gui_running")
     set hlsearch
 endif
 
+================ General Config ====================
+
 " Line numbering
 set number
 
@@ -31,6 +33,5 @@ set laststatus=2
 set insearch
 
 " Colorscheme
-colorscheme pablo
 
 
