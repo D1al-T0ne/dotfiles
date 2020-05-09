@@ -16,3 +16,10 @@ defaults write com.apple.dock showhidden -bool true
 
 # Prevent Photos from opening automatically when devices are plugged in.
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+
+
+=================== Terminal  =====================
+
+# Locate command searches an index of file locations.
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
