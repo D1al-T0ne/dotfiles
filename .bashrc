@@ -4,3 +4,7 @@ PS1+="\[$(tput setaf 007)\] on the \h"; # host
 PS1+="\[$(tput setaf 240)\] in \W -> "; # working directory
 PS1+="\[$(tput sgr0)\]"; # reset the colour
 export PS1;
+
+
+#
+alias aliasname='command'" >> ~/.aliases && source ~/.aliases
