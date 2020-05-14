@@ -15,10 +15,13 @@ if &t_Co >2 || has("gui_running")
     set hlsearch
 endif
 
-================ General Config ====================
+"================ General Config ====================
 
 " Line numbering
 set number
+
+" Colorscheme
+
 
 " Show the current mode
 set showmode
@@ -30,8 +33,9 @@ set ruler
 set laststatus=2
 
 " Highlight dynamically as pattern is typed.
-set insearch
 
-" Colorscheme
+"Enable Vim to use the system clipboard
+set clipboard=unnamedplus
+
 
 
