@@ -7,4 +7,4 @@ export PS1;
 
 
 #
-alias aliasname='command'" >> ~/.aliases && source ~/.aliases
+alias aliasname='command'" >> ~/.bash_aliases && source ~/.bash_aliases
