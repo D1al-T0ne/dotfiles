@@ -17,11 +17,27 @@ endif
 
 "================ General Config ====================
 
+" No alarm bell
+get noerrorbells
+
+" No Vim swap file
+set noswapfile
+
+" No Vim backup
+set nobackup
+
+" Set an undo directory and file
+set undodir=~/.vim/undodir
+set undofile
+
+"Tab spacing
+set tabstop=4 softtabstop=4
+
 " Line numbering
 set number
 
-" Colorscheme
-
+" No line wrapping
+set nowrap
 
 " Show the current mode
 set showmode
@@ -33,9 +49,15 @@ set ruler
 set laststatus=2
 
 " Highlight dynamically as pattern is typed.
+set incsearch
 
 "Enable Vim to use the system clipboard
 set clipboard=unnamedplus
 
+"================ Leader Key ================
+
+let mapleader = " "
+
+nnoremap <leader>s :sh<CR>
 
 
