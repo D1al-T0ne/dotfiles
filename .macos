@@ -6,18 +6,18 @@
 ===================== Dock  =======================
 
 # Automatically hide and show the Dock
-defaults write com.apple.dock autohide -bool true
+defaults write com.apple.Dock autohide -bool true
 
 # Make Dock icons of hidden applications translucent
-defaults write com.apple.dock showhidden -bool true
+defaults write com.apple.Dock showhidden -bool true
 
+# Have Dock positioned to the left of the screen
+defaults write com.apple.Dock orientation left
 
 ==================== Photos  ======================
 
 # Prevent Photos from opening automatically when devices are plugged in.
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
-
-
 
 =================== Terminal  =====================
 
