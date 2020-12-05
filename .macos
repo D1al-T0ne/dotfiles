@@ -1,25 +1,33 @@
+#!/usr/bin/env bash
 
-
-
-==================== General ======================
-
-===================== Dock  =======================
+# Dock
 
 # Automatically hide and show the Dock
 defaults write com.apple.Dock autohide -bool true
 
+# Don’t animate opening applications from the Dock
+defaults write com.apple.dock launchanim -bool false
+
+# Minimize windows into their application’s icon
+defaults write com.apple.dock minimize-to-application -bool true
+
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.Dock showhidden -bool true
 
-# Have Dock positioned to the left of the screen
-defaults write com.apple.Dock orientation left
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
 
-==================== Photos  ======================
+# Photos
 
 # Prevent Photos from opening automatically when devices are plugged in.
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
-=================== Terminal  =====================
+# Safari
+
+# Enable "Do Not Track"
+defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
+
+# Terminal
 
 # Locate command searches an index of file locations.
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
