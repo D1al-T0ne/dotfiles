@@ -1,5 +1,11 @@
-# My dotfiles
+## My dotfiles
 - This is a repo of my .files, a work in progress.
 
+### Feedback
+
+Suggestions/improvements are welcome.
+
 ---
-If you have any tips or suggestions please reach out to me @D1AL__T0NE on Twitter 🐦 
+### Author
+[D1al-T0ne](https://twitter.com/d1al__t0ne "Follow @d1al__t0ne on Twitter")
+ 
