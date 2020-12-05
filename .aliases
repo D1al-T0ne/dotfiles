@@ -1,5 +1,42 @@
-#======== General ========
+#!/bin/bash
 
-alias ls='ls -G'
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
-alias ..='cd ..'
+# Shortcuts
+alias doc="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+
+# AFK
+alias afk='pmset displaysleepnow'
+
+#VPN 
+alias con='curl ifconfig.me'
+alias vpn-con='piactl connect'
+alias vpn-dis='piactl disconnect'
+alias vpn-id='piactl get vpnip'
+alias vpn-montreal='piactl set region ca-montreal'
+alias vpn-toronto='piactl set region ca-toronto'
+alias vpn-vancouver='piactl set region ca-vancouver'
+alias vpn-new-york='piactl set region us-new-york'
+
+# Server
+alias ngrok-ip='ngrok http 3000'
+alias server='ruby -run -ehttpd . -p3000'
+
+#Scripts
+alias wayback='./wayback.sh'
+alias probe='./probe.sh'
+alias linkfinder='./linkfinder.sh'
+
+# Docker
+# Juice-Shop
+alias Juice-Shop='docker pull bkimminich/juice-shop && docker run --rm -p 3000:3000 bkimminich/juice-shop'
+# amass
+alias Amass-Docker='docker build -t amass https://github.com/OWASP/Amass.git'
+alias Amass-Enum='docker run -v OUTPUT_DIR_PATH:/.config/amass/ amass enum -d $1'
+jjGjk
