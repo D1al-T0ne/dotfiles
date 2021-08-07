@@ -2,7 +2,7 @@ sudo apt-get upgrade
 
 sudo apt-get update
 
-sudo apt-get install \
+sudo apt-get install -y\
 git \
 pip \
 
