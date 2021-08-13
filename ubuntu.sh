@@ -4,6 +4,7 @@ sudo apt-get update
 
 sudo apt-get install -y\
 git \
+golang-go \
 pip \
 
 # Color scheme
