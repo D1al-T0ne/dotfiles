@@ -2,7 +2,7 @@
 A work in progress.
 
 ### Feedback
-Suggestions/improvements are [welcome](https://d1al-t0ne/dotfiles/issues).
+Suggestions/improvements are [welcome](https://github.com/D1al-T0ne/dotfiles/issues).
 
 ---
 ### Author
