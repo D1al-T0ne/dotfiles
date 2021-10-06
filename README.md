@@ -1,10 +1,10 @@
-### My dotfiles
-A work in progress.
+### dotfiles
+A small collection that makes up my dotfiles.
+This is definitely a work in progress!
 
 ### Feedback
-Suggestions/improvements are [welcome](https://github.com/D1al-T0ne/dotfiles/issues).
+If you have any tips or improvement ideas I should be looking at please let me [know.](https://github.com/D1al-T0ne/Fetch-n-Scrape/issues)
 
 ---
-### Author
-[D1al-T0ne](https://twitter.com/d1al__t0ne "Follow @d1al__t0ne on Twitter")
+
  
