@@ -1,63 +1,60 @@
 " Use Vim settings, rather than VI settings.
-" This must be first, because it changes other options as a side effect.
 set nocompatible
-
-" Don't show the inro message when starting VIm
 set shortmess=atI
- 
-" Allow backspacing over everything in insert mode.
+set noerrorbells
 set backspace=indent,eol,start
 
-" Switch syntax highlighting on, when the terminal has colors.
-" Also switch on highlighting the last used search pattern.
-if &t_Co >2 || has("gui_running")
-    syntax on
-    set hlsearch
-endif
+" Search down into subfolders
+set path+=**
+" Tab-completion
+set wildmenu
 
-"================ General Config ====================
-
-" No alarm bell
-get noerrorbells
-
-" No Vim swap file
 set noswapfile
-
-" No Vim backup
 set nobackup
-
-" Set an undo directory and file
 set undodir=~/.vim/undodir
 set undofile
 
-"Tab spacing
-set tabstop=4 softtabstop=4
-
-" Line numbering
-set number
-
-" No line wrapping
-set nowrap
-
-" Show the current mode
 set showmode
-
-" Show teh cursor position
 set ruler
-
-" Always show status line
+set number
+set relativenumber
 set laststatus=2
-
-" Highlight dynamically as pattern is typed.
+set scrolloff=8
 set incsearch
+syntax on
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=white
 
 "Enable Vim to use the system clipboard
-set clipboard=unnamedplus
+set clipboard=unnamed
 
-"================ Leader Key ================
+" Vim-Plugged
+call plug#begin('~/.vim/plugged')
+Plug 'joshdick/onedark.vim'
+Plug ''
+Plug 'Vimjas/vim-python-pep8-indent'
+call plug#end()
+
+colorscheme onedark
+"set background=dark
+
+"File Tree Browser Settings
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+let g:netrw_browse_split = 4
+let g:netrw_winsize = 25
+let g:netrw_altv = 1
 
 let mapleader = " "
 
-nnoremap <leader>s :sh<CR>
+inoremap kj <Esc>
 
+nnoremap <leader>rs :sh<CR>
+nnoremap <leader>rp :!python3 %<CR>
+nnoremap <leader>tr :bel terminal <CR>
+nnoremap <leader>ft :Vexplore<CR>
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
