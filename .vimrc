@@ -31,7 +31,7 @@ set clipboard=unnamed
 " Vim-Plugged
 call plug#begin('~/.vim/plugged')
 Plug 'joshdick/onedark.vim'
-Plug ''
+Plug 'ycm-core/YouCompleteMe'
 Plug 'Vimjas/vim-python-pep8-indent'
 call plug#end()
 
