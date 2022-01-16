@@ -5,6 +5,6 @@ PS1+="\[$(tput setaf 240)\] in \W -> "; # working directory
 PS1+="\[$(tput sgr0)\]"; # reset the colour
 export PS1;
 
-
-#
-echo "alias aliasname='command'" >> ~/.bash_aliases && source ~/.bash_aliases
+if [ -e $HOME/.bash_aliases ]; then
+    source $HOME/.bash_aliases
+fi
