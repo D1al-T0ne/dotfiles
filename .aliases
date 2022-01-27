@@ -16,6 +16,9 @@ alias doc="cd ~/Documents"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 
+# Grep History
+alias gh='history|grep'
+
 # AFK
 alias afk='pmset displaysleepnow'
 
@@ -44,3 +47,4 @@ alias server='ruby -run -ehttpd . -p3000'
 # Docker
 # Switchboard
 alias switchboard='cd ~/switchboard && docker run -v ~/switchboard:/srv/ -it --rm switchboard'
+alias reset_docker='killall Docker && open /Applications/Docker.app'
