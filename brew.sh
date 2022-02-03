@@ -11,7 +11,8 @@ brew install bash
 brew install bash-completion2
 
 # Install more recent versions of some macOS tools.
-brew install vim
+brew install screen
+brew install vim --with-overriade-system-vi
 brew install grep
 brew install wget
 
@@ -23,9 +24,11 @@ brew cask install google-chrome
 brew tap caffix/amass
 brew install amass
 
+brew install nmap
+brew install sqlmap
+
 # Install ngrok
 brew install --cask ngrok
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
