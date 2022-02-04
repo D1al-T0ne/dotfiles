@@ -12,6 +12,8 @@ brew install findutils
 # To use these commands with their normal names.
 # add a "gnubin" directory to your PATH from your bashrc
 # PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH"
+brew install yarn
+brew install npm
 
 # Insall Updated Bash
 brew install bash
@@ -26,21 +28,19 @@ fi;
 # Install more recent versions of some macOS tools.
 brew install screen
 brew install vim --with-overriade-system-vi
+brew install vim cmake
 brew install grep
 brew install wget
 
-# Install browsers
+# Browsers
 brew cask install firefox
 brew cask install google-chrome
 
-# Install amass
+# Other Tools
 brew tap caffix/amass
 brew install amass
-
 brew install nmap
 brew install sqlmap
-
-# Install ngrok
 brew install --cask ngrok
 
 # Remove outdated versions from the cellar.
