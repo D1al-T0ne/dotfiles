@@ -18,6 +18,10 @@ alias dt="cd ~/Desktop"
 
 # Grep History
 alias gh='history|grep'
+# Grep coloured output
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 
 # AFK
 alias afk='pmset displaysleepnow'
