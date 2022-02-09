@@ -79,5 +79,7 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>l <C-w>l
 
+autocmd BufNewFile *.html 0r ~/.vim/skeletons/page.html
+autocmd BufNewFile *.py 0r ~/.vim/skeletons/page.py
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
