@@ -17,7 +17,7 @@ brew install npm
 
 # Insall Updated Bash
 brew install bash
-brew install bash-completion2
+brew install bash-completion
 
 # Install more recent versions of some macOS tools.
 brew install screen
