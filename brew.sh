@@ -33,8 +33,8 @@ brew install grep
 brew install wget
 
 # Browsers
-brew cask install firefox
-brew cask install google-chrome
+brew install --cask firefox
+brew install --cask google-chrome
 
 # Other Tools
 brew tap caffix/amass
