@@ -1,6 +1,5 @@
 ## dotfiles
 
-My collection of dotfiles for mac and ubuntu.<br>
 This is definitely a work in progress!
 
 ## Useful Links
@@ -8,7 +7,7 @@ This is definitely a work in progress!
 [Upgrading Bash on MacOS](https://itnext.io/upgrading-bash-on-macos-7138bd1066ba)
 
 ## Feedback
-If you have any tips or improvement ideas I should be looking at please let me [know.](https://github.com/D1al-T0ne/Fetch-n-Scrape/issues)
+If you have any tips or improvement ideas I should be looking at please let me [know.](https://github.com/D1al-T0ne/dotfiles/Issues)
 
 ---
 [![D1al T0ne](https://aleen42.github.io/badges/src/twitter.svg)](https://twitter.com/D1AL__T0NE)
