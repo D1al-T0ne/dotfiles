@@ -28,7 +28,7 @@ brew install wget
 
 # Browsers
 brew install --cask firefox
-brew install --cask google-chrome
+brew install --cask chromium
 
 # Other Tools
 brew install --cask ngrok
