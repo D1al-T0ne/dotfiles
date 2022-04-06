@@ -12,8 +12,10 @@ brew install findutils
 # To use these commands with their normal names.
 # add a "gnubin" directory to your PATH from your bashrc
 # PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH"
-brew install yarn
+brew install go
+brew install nodejs
 brew install npm
+brew install yarn
 
 # Insall Updated Bash
 brew install bash
